@@ -113,6 +113,7 @@ export default ({
 						className={'custom-input'}
 						thousandSeparator={' '}
 						id={id}
+						alt={id}
 						placeholder={displayedPlaceholder}
 						value={value}
 						onValueChange={(values, sourceInfo) => onChange(values.value)}

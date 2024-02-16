@@ -59,8 +59,7 @@ export default ({ children }): ReactElement => (
 						</p>
 					</div>
 				</Col>
-
-				<Col xl={6} lg={7} md={12} sm={12} className={'widget-col'} id={'widget-col'}>
+				<Col xl={6} lg={7} md={12} sm={12} data-testid={'widget'} className={'widget-col'} id={'widget-col'}>
 					{children}
 				</Col>
 			</Row>
